@@ -12,7 +12,7 @@ router.post('/enviar/:namesite', async function (req, res, next) {
 
     var body = req.body;
 
-    var sendTo = "comercial@roype.com.br";
+    var sendTo = "email_to_send_here";
 
     var transporter = nodemailer.createTransport(smtpTransport({
       service: 'gmail',
