@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Evogria';
+  src: url('/static/fonts/Evogria.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Evogria";
+}
+
+a {
+  color: #00B7FF;
+}
